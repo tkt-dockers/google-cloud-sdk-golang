@@ -12,3 +12,5 @@ RUN curl -Lso go.tar.gz "https://dl.google.com/go/go${GOLANG_VERSION}.linux-amd6
     && rm go.tar.gz
 
 ENV PATH /usr/local/go/bin:$PATH
+
+RUN go get -u github.com/golang/dep/cmd/dep

@@ -1,4 +1,4 @@
 # Google Cloud SDK with Golang
 
 ## Supporterd Tags
-`latest`
+- `latest`, `291.0-go1.12`
